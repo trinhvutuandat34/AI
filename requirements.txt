@@ -1,0 +1,23 @@
+# AI Combat SDK - 참가자 의존성
+# Python 3.12
+
+# 시뮬레이션
+jsbsim>=1.2.3
+
+# 행동트리
+py_trees>=2.4.0
+
+# 머신러닝 (저수준 RNN 정책 실행에 필요)
+torch>=2.0.0
+numpy>=1.24.0
+wandb>=0.16.0
+
+# 환경
+gymnasium>=0.29.0
+pymap3d>=3.0.0
+geographiclib>=2.0
+
+# 유틸리티
+pyyaml>=6.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
